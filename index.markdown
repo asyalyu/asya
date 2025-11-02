@@ -67,7 +67,7 @@ layout: home
       </p>
   </div>
 
-  <img src="/assets/Asya Headshots 2025-12.jpg" alt="Asya (Lyubavina) Vaisberg" style="width: 300px; height: 300px; object-fit: cover; border-radius: 8px; margin-right: -20rem;" />
+  <img src="{{ '/assets/Asya Headshots 2025-12.jpg' | relative_url }}" alt="Asya (Lyubavina) Vaisberg" style="width: 300px; height: 300px; object-fit: cover; border-radius: 8px; margin-right: -20rem;" />
 
 </div>
 
@@ -75,7 +75,7 @@ layout: home
 <div class="lower-section" style="padding: 2rem; width: 140%; margin: auto;">
             <h2 style="font-family: 'Georgia', serif; font-size: 1.7rem; margin:  0 0 2.5rem 0;" id="projects">Recent Projects</h2>
             <section class="project" style="display: flex; align-items: center; margin-bottom: 2rem; padding-bottom: 1rem;">
-  <img src="/assets/pai.png" alt="Pa-i Website" style="width: 250px; height: 150px; object-fit: cover; margin-right: 1rem; flex-shrink: 0;" />
+  <img src="{{ '/assets/pai.png' | relative_url }}" alt="Pa-i Website" style="width: 250px; height: 150px; object-fit: cover; margin-right: 1rem; flex-shrink: 0;" />
   <div>
     <h3 style="font-family: 'Open Sans', sans-serif; font-size: 1.3rem; margin:  0 0 0.5rem 0; font-weight: bold;color: rgb(16, 10, 212)" >Pa-i Website</h3>
     <p style="font-family: 'Open Sans', sans-serif; font-size: 1rem; margin:  0 0 0.5rem 0;">Led a team to design and launch a modern, user-centric website for the P-ai club, implementing enhanced UI/UX features as well as expanded functionality to increase member engagement</p>
@@ -88,7 +88,7 @@ layout: home
 
 
 <section class="project" style="display: flex; align-items: center; margin-bottom: 2rem; padding-bottom: 1rem;">
-  <img src="/assets/quiz.png" alt="Adaptive Chinese Placement Test" style="width: 250px; height: 150px; object-fit: cover; margin-right: 1rem; flex-shrink: 0;" />
+  <img src="{{ '/assets/quiz.png' | relative_url }}" alt="Adaptive Chinese Placement Test" style="width: 250px; height: 150px; object-fit: cover; margin-right: 1rem; flex-shrink: 0;" />
   <div>
     <h3 style="font-family: 'Open Sans', sans-serif; font-size: 1.3rem; margin:  0 0 0.5rem 0; font-weight: bold; color: rgb(16, 10, 212)">Adaptive Chinese Placement Test</h3>
     <p style="font-family: 'Open Sans', sans-serif; font-size: 1rem; margin:  0 0 0.5rem 0;">Currently maintaining the Firebase web-app and developing new functionality to improve user experience</p>
@@ -97,7 +97,7 @@ layout: home
 </section>
 
 <section class="project" style="display: flex; align-items: center; margin-bottom: 2rem; border-bottom: 1px solid #ccc; padding-bottom: 1rem;">
-  <img src="/assets/gradio.png" alt="AI-Powered Document Reader for BLV Users" style="width: 250px; height: 150px; object-fit: cover; margin-right: 1rem; flex-shrink: 0;" />
+  <img src="{{ '/assets/gradio.png' | relative_url }}" alt="AI-Powered Document Reader for BLV Users" style="width: 250px; height: 150px; object-fit: cover; margin-right: 1rem; flex-shrink: 0;" />
   <div>
     <h3 style="font-family: 'Open Sans', sans-serif; font-size: 1.3rem; margin:  0 0 0.5rem 0; font-weight: bold; color: rgb(16, 10, 212)">AI-Powered Document Reader for BLV Users</h3>
     <p style="font-family: 'Open Sans', sans-serif; font-size: 1rem; margin:  0 0 0.5rem 0;">Collaborated with classmates to design and develop an AI powered document/image reading application for visually impaired users</p>
@@ -110,7 +110,7 @@ layout: home
            
           
 <section class="publication" style="display: flex; align-items: center; margin-bottom: 2rem; border-bottom: 1px solid #ccc; padding-bottom: 1rem;">
-  <img src="/assets/artkrit.png" alt="Computational Scaffolding..." style="width: 250px; height: 150px; object-fit: cover; margin-right: 1rem; flex-shrink: 0;" />
+  <img src="{{ 'assets/artkrit.png' | relative_url }}" alt="Computational Scaffolding..." style="width: 250px; height: 150px; object-fit: cover; margin-right: 1rem; flex-shrink: 0;" />
   <div>
     <h3 style="font-family: 'Open Sans', sans-serif; font-size: 1.3rem; margin:  0 0 0.5rem 0; font-weight: bold; color: rgb(16, 10, 212)">Computational Scaffolding of Composition, Value, and Color for Disciplined Drawing</h3>
     <p style="font-family: 'Georgia', serif; font-size: 1rem; margin:  0 0 0.5rem 0;">ACM Symposium on User Interface Software and Technology (UIST), 2025</p>

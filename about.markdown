@@ -64,7 +64,7 @@ permalink: /about/
 <h2 style="font-family: 'Georgia', serif; font-size: 1.7rem; margin:  0 0 2.5rem 0;"  id = "other" >Other Projects</h2>
 <section class="projects" style="margin-bottom: 2rem; border-bottom: 1px solid #ccc; padding-bottom: 1rem;">
  <section style="display: flex; align-items: center; margin-bottom: 1rem;">
-  <img src="/assets/map.png" alt="Social Media Sentiment Analysis" style="width: 150px; height: 100px; object-fit: cover; margin-right: 1rem; flex-shrink: 0;" />
+  <img src="{{ '/assets/map.png' | relative_url }}" alt="Social Media Sentiment Analysis" style="width: 150px; height: 100px; object-fit: cover; margin-right: 1rem; flex-shrink: 0;" />
   <div>
     <h3 style="font-family: 'Open Sans', sans-serif; font-size: 1.3rem; margin:  0 0 0.5rem 0;font-weight: bold; color: rgb(16, 10, 212)">International Media's View of China's Advancements in Clean Energy and AI </h3>
     <p style="font-family: 'Open Sans', sans-serif; font-size: 1rem; margin:  0 0 0.5rem 0;">This is my Chinese thesis project. I am curious to see how different counties’ news media views Chinese development in technologies like clean energy and AI. Furthermore, I am curious to compare this information with the country’s involvement in China’s Belt and Road Initiative (BRI), to make conclusions about how geopolitical influence might be reflected in media coverage. To complete this project, I will use technologies such as the GNews API, NLP Sentiment Analysis, and SQLite. </p>
@@ -72,7 +72,7 @@ permalink: /about/
 </section>
 
 <section style="display: flex; align-items: center; margin-bottom: 1rem;">
-  <img src="/assets/xue.jpg" alt="Static Portfolio Website" style="width: 150px; height: 100px; object-fit: cover; margin-right: 1rem; flex-shrink: 0;" />
+  <img src="{{ '/assets/xue.jpg' | relative_url }}" alt="Static Portfolio Website" style="width: 150px; height: 100px; object-fit: cover; margin-right: 1rem; flex-shrink: 0;" />
   <div>
 
   <h3 style="font-family: 'Open Sans', sans-serif; font-size: 1.3rem; margin:  0 0 0.5rem 0;font-weight: bold; color: rgb(16, 10, 212)">How has the Attitude Towards Studying Chinese, in America, Change Since 2020?</h3>
@@ -81,7 +81,7 @@ permalink: /about/
 </section>
 
 <section style="display: flex; align-items: center; margin-bottom: 1rem;">
-  <img src="/assets/bitflip.jpg" alt="Static Portfolio Website" style="width: 150px; height: 100px; object-fit: cover; margin-right: 1rem; flex-shrink: 0;" />
+  <img src="{{ '/assets/bitflip.jpg' | relative_url }}" alt="Static Portfolio Website" style="width: 150px; height: 100px; object-fit: cover; margin-right: 1rem; flex-shrink: 0;" />
   <div>
 
   <h3 style="font-family: 'Open Sans', sans-serif; font-size: 1.3rem; margin:  0 0 0.5rem 0;font-weight: bold; color: rgb(16, 10, 212)">Curated Reference Images for Creative Use </h3>
@@ -91,7 +91,7 @@ permalink: /about/
 </section>
 
 <section style="display: flex; align-items: center; margin-bottom: 1rem;">
-  <img src="/assets/storyboard.png" alt="Static Portfolio Website" style="width: 150px; height: 100px; object-fit: cover; margin-right: 1rem; flex-shrink: 0;" />
+  <img src="{{ '/assets/storyboard.png' | relative_url }}" alt="Static Portfolio Website" style="width: 150px; height: 100px; object-fit: cover; margin-right: 1rem; flex-shrink: 0;" />
   <div>
 
   <h3 style="font-family: 'Open Sans', sans-serif; font-size: 1.3rem; margin:  0 0 0.5rem 0;font-weight: bold; color: rgb(16, 10, 212)">Improving the LinkedIn Feed</h3>
