@@ -4,6 +4,10 @@
 
 layout: home
 ---
+<head>
+<link rel="shortcut icon" href="{{ site.baseurl }}/assets/A.png" type="image/x-icon" />
+</head>
+
 <style>
     #sidebar a {
   color: black;
