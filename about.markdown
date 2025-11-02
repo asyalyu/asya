@@ -2,8 +2,7 @@
 layout: home
 
 permalink: /about/
-head: |
-  <link rel="shortcut icon" href="{{ site.baseurl }}/assets/A.png" type="image/x-icon" />
+
 
 ---
 
