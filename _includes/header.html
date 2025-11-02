@@ -1,0 +1,17 @@
+<nav style="
+  display: flex;
+  justify-content: flex-end;
+  padding: 2rem 2rem 1rem 2rem; /* top padding increased to move nav lower */
+  background-color: transparent;
+  border-bottom: none;
+  max-width: 900px;
+  margin: 0 auto; /* centers nav horizontally within its container */
+  box-sizing: border-box;
+">
+  <a href="{{ '/' | relative_url }}" style=" font-family: 'Open Sans', sans-serif; font-size: 1.3rem; text-decoration: none; color: inherit; margin-right: 2rem;">
+    Home
+  </a>
+  <a href="{{ '/about/' | relative_url }}" style=" font-family: 'Open Sans', sans-serif; font-size: 1.3rem; text-decoration: none; color: inherit;">
+    About
+  </a>
+</nav>
