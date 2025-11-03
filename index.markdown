@@ -32,14 +32,14 @@ layout: home
 
   /* Center the new wrapper and restrict width */
   .lower-wrapper {
-    max-width: 90% !important;
+    max-width: 100% !important;
     margin: 0 auto !important;
     padding: 0 1rem;
   }
 
   /* Override large width on lower-section */
   .lower-section {
-    width: 100% !important;
+    width: 90% !important;
     padding: 1rem !important;
   }
 
