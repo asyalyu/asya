@@ -126,12 +126,12 @@ permalink: /about/
     <div class="home" style="border-left: none; padding-left: 1rem;">
 
 <div class="top-section" >
-  <p style="font-family: 'Open Sans', sans-serif; font-size: 1.7rem; margin: 0; line-height: 1.4;">
+  <p style="font-family: 'Open Sans', sans-serif; font-size: 1.7rem;  margin:  0 0 0.5rem 0; line-height: 1.4;">
       Hello! I’m Asya, a Computer Science and Chinese double major at Pomona College, California. I am passionate about bridging technology and human experiences.
   My goal is to combine strong technical expertise with interpersonal skills to create meaningful solutions and foster genuine connections. 
   
   </p>
-    <p style="font-family: 'Open Sans', sans-serif; font-size: 1.7rem; margin: 0; line-height: 1.4;">
+    <p style="font-family: 'Open Sans', sans-serif; font-size: 1.7rem; margin:  0 0 0.5rem 0; line-height: 1.4;">
     Learn more about my background and interdisciplinary passions below
     </p>
 
