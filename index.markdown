@@ -18,40 +18,26 @@ layout: home
 
 }
 
-
 @media screen and (max-width: 700px) {
+  /* Hide sidebar on phone */
   #sidebar {
     display: none;
   }
 
-  .wrapper {
+  /* Center the new wrapper and restrict width */
+  .lower-wrapper {
     max-width: 90% !important;
     margin: 0 auto !important;
     padding: 0 1rem;
   }
 
-  .top-section {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    justify-content: center !important;
+  /* Override large width on lower-section */
+  .lower-section {
+    width: 100% !important;
     padding: 1rem !important;
   }
 
-  .top-section > div {
-    max-width: 100% !important;
-    text-align: center !important;
-    padding: 0 !important;
-  }
-
-  .top-section img {
-    width: 200px !important;
-    height: auto !important;
-    margin: 1rem 0 0 0 !important;
-    border-radius: 8px !important;
-  }
-
-  /* Make all project, publication, awards, technologies sections stack vertically and center */
+  /* Stack project and publication sections vertically centered */
   section.project,
   section.publication,
   section.technologies,
@@ -62,26 +48,26 @@ layout: home
     text-align: center !important;
   }
 
-  /* Images scale down and center, margin below to separate from text */
+  /* Responsive images */
   section.project img,
   section.publication img {
-    width: 90% !important;
-    max-width: 300px;
+    max-width: 90%;
     height: auto !important;
-    margin: 0 0 1rem 0 !important;
+    margin-bottom: 1rem !important;
   }
 
-  /* Text wrappers expand full width and centered */
+  /* Text container full width */
   section.project > div,
   section.publication > div {
     width: 100% !important;
   }
 
-  /* Headings centered */
+  /* Center headings */
   h2, h3 {
     text-align: center !important;
   }
 }
+
 
 </style>
 
@@ -140,7 +126,7 @@ layout: home
 
 </div>
 
-          
+ <div class="lower-wrapper">         
 <div class="lower-section" style="padding: 2rem; width: 140%; margin: auto;">
             <h2 style="font-family: 'Georgia', serif; font-size: 1.7rem; margin:  0 0 2.5rem 0;" id="projects">Recent Projects</h2>
             <section class="project" style="display: flex; align-items: center; margin-bottom: 2rem; padding-bottom: 1rem;">
@@ -233,6 +219,7 @@ Interface Software and Technology (UIST) </span> , a top-tier Human-Computer Int
 </section>
            
 
+  </div>
   </div>
 
 
