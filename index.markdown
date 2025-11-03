@@ -33,39 +33,30 @@ layout: home
     padding-left: 0 !important;
   }
   
-  .lower-wrapper,
-  .lower-section {
-    width: 100% !important;
-    max-width: 100% !important;
-    margin: 0 auto !important;
-    padding: 0 1rem !important;
-    text-align: center !important;
-  }
-
-  /* Stack project and publication sections vertically centered */
-  section.project,
-  section.publication,
-  section.technologies,
-  section.awards {
+ .lower-section {
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
+    justify-content: center !important;
+    padding: 1rem !important;
+    margin: 0 auto !important;
+    max-width: 90% !important;
+  }
+
+  /* Ensure child div inside top-section is full width and text centered */
+  .lower-section > div {
+    max-width: 100% !important;
     text-align: center !important;
-    max-width: 100% !important;
+    padding: 0 !important;
   }
 
-  /* Responsive images */
-  section.project img,
-  section.publication img {
+  /* Responsive image inside top-section */
+  .lower-section img {
+    width: 200px !important;
     height: auto !important;
-    margin-bottom: 1rem !important;
-    max-width: 100% !important;
-  }
-
-  /* Text container full width */
-  section.project > div,
-  section.publication > div {
-    width: 100% !important;
+    margin: 1rem 0 0 0 !important;
+    border-radius: 8px !important;
+    margin-right: 0 !important; /* Remove negative/right margin that breaks centering */
   }
 
   /* Center headings */
