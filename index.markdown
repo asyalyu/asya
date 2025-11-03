@@ -29,18 +29,14 @@ layout: home
   #sidebar {
     display: none;
   }
-
-  /* Center the new wrapper and restrict width */
-  .lower-wrapper {
-    width: 100% !important;
-    margin: 0 auto !important;
-    padding: 0 1rem;
-  }
-
-  /* Override large width on lower-section */
+  
+  .lower-wrapper,
   .lower-section {
     width: 100% !important;
-    padding: 1rem !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0 1rem !important;
+    text-align: center !important;
   }
 
   /* Stack project and publication sections vertically centered */
