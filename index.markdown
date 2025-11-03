@@ -20,19 +20,16 @@ layout: home
 
 
 @media screen and (max-width: 700px) {
-  /* Hide sidebar on phones */
   #sidebar {
     display: none;
   }
 
-  /* Center main wrapper and allow responsive width */
   .wrapper {
     max-width: 90% !important;
     margin: 0 auto !important;
     padding: 0 1rem;
   }
 
-  /* Change top section flex layout to column, center content */
   .top-section {
     display: flex !important;
     flex-direction: column !important;
@@ -41,22 +38,20 @@ layout: home
     padding: 1rem !important;
   }
 
-  /* Make text center aligned */
   .top-section > div {
     max-width: 100% !important;
     text-align: center !important;
     padding: 0 !important;
   }
 
-  /* Responsive image sizing and remove large negative margin */
   .top-section img {
     width: 200px !important;
     height: auto !important;
-    margin: 1rem 0 0 0 !important; /* Remove negative margin */
+    margin: 1rem 0 0 0 !important;
     border-radius: 8px !important;
   }
 
-  /* For sections with flex alignments, stack vertically and center */
+  /* Make all project, publication, awards, technologies sections stack vertically and center */
   section.project,
   section.publication,
   section.technologies,
@@ -67,21 +62,22 @@ layout: home
     text-align: center !important;
   }
 
-  /* Images inside these sections scale down */
+  /* Images scale down and center, margin below to separate from text */
   section.project img,
   section.publication img {
     width: 90% !important;
+    max-width: 300px;
     height: auto !important;
-    margin-bottom: 1rem !important;
+    margin: 0 0 1rem 0 !important;
   }
 
-  /* Text content inside project/publication sections full width and centered */
+  /* Text wrappers expand full width and centered */
   section.project > div,
   section.publication > div {
     width: 100% !important;
   }
 
-  /* Center section headings */
+  /* Headings centered */
   h2, h3 {
     text-align: center !important;
   }
