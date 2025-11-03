@@ -105,7 +105,7 @@ layout: home
 ">
   <img src="/assets/3.png" alt="Moving Graphic" id="moving-graphic" style="width: 100%; height: 100%;" />
 </div> -->
-
+ <div class="lower-wrapper"> 
 <main class="page-content" aria-label="Content">
   <div class="wrapper" style="max-width: 1600px; margin: auto;">
     <div class="home" style="border-left: none; padding-left: 1rem;">
@@ -126,7 +126,7 @@ layout: home
 
 </div>
 
- <div class="lower-wrapper">         
+        
 <div class="lower-section" style="padding: 2rem; width: 140%; margin: auto;">
             <h2 style="font-family: 'Georgia', serif; font-size: 1.7rem; margin:  0 0 2.5rem 0;" id="projects">Recent Projects</h2>
             <section class="project" style="display: flex; align-items: center; margin-bottom: 2rem; padding-bottom: 1rem;">
