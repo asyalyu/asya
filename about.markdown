@@ -138,7 +138,7 @@ permalink: /about/
 
 <h2 style="font-family: 'Georgia', serif; font-size: 1.7rem; margin:  0 0 2.5rem 0;"  id = "other" >Other Projects</h2>
 <section class="projects" style="margin-bottom: 2rem; border-bottom: 1px solid #ccc; padding-bottom: 1rem;">
- <section style="display: flex; align-items: center; margin-bottom: 1rem;">
+ <section section class="project" style="display: flex; align-items: center; margin-bottom: 1rem;">
   <img src="{{ '/assets/map.png' | relative_url }}" alt="Social Media Sentiment Analysis" style="width: 150px; height: 100px; object-fit: cover; margin-right: 1rem; flex-shrink: 0; border-radius: 8px;" />
   <div>
     <h3 style="font-family: 'Open Sans', sans-serif; font-size: 1.3rem; margin:  0 0 0.5rem 0;font-weight: bold; color: rgb(16, 10, 212)">International Media's View of China's Advancements in Clean Energy and AI </h3>
@@ -146,7 +146,7 @@ permalink: /about/
   </div>
 </section>
 
-<section style="display: flex; align-items: center; margin-bottom: 1rem;">
+<section section class="project" style="display: flex; align-items: center; margin-bottom: 1rem;">
   <img src="{{ '/assets/xue.jpg' | relative_url }}" alt="Static Portfolio Website" style="width: 150px; height: 100px; object-fit: cover; margin-right: 1rem; flex-shrink: 0;border-radius: 8px;" />
   <div>
 
@@ -155,7 +155,7 @@ permalink: /about/
   </div>
 </section>
 
-<section style="display: flex; align-items: center; margin-bottom: 1rem;">
+<section section class="project" style="display: flex; align-items: center; margin-bottom: 1rem;">
   <img src="{{ '/assets/bitflip.jpg' | relative_url }}" alt="Static Portfolio Website" style="width: 150px; height: 100px; object-fit: cover; margin-right: 1rem; flex-shrink: 0; border-radius: 8px;" />
   <div>
 
@@ -165,7 +165,7 @@ permalink: /about/
   </div>
 </section>
 
-<section style="display: flex; align-items: center; margin-bottom: 1rem;">
+<section section class="project" style="display: flex; align-items: center; margin-bottom: 1rem;">
   <img src="{{ '/assets/storyboard.png' | relative_url }}" alt="Static Portfolio Website" style="width: 150px; height: 100px; object-fit: cover; margin-right: 1rem; flex-shrink: 0; border-radius: 8px;" />
   <div>
 
