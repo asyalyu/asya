@@ -17,10 +17,77 @@ permalink: /about/
 
 }
 
+.lower-section {
+  padding: 2rem;
+  width: 140%;
+  margin: auto;
+}
+
 @media screen and (max-width: 700px) {
   #sidebar {
     display: none;
   }
+
+   
+  .home {
+    padding-left: 0 !important;
+  }
+  
+ .lower-section {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 1rem !important;
+    margin: 0 auto !important;
+    max-width: 90% !important;
+  }
+
+  /* Ensure child div inside top-section is full width and text centered */
+  .lower-section > div {
+    max-width: 100% !important;
+    text-align: center !important;
+    padding: 0 !important;
+  }
+
+   section.projects,
+  section.classes,
+  section.extracurriculars, 
+  section.miscellaneous{
+    display: flex !important;
+    flex-direction: column !important; /* stack vertically */
+    align-items: center !important;    /* center horizontally */
+    text-align: center !important;     /* center text inside content div */
+  }
+  section.projects img {
+    margin: 1rem 0 0 0 !important;     /* margin-top to separate from text */
+    width: 80% !important;             /* optional: make image smaller and responsive */
+    max-width: 300px !important;       /* limit max size */
+    height: auto !important;
+  }
+
+  /* Center headings */
+  h2, h3 {
+    text-align: center !important;
+  }
+
+  .top-section {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 1rem !important;
+    margin: 0 auto !important;
+    max-width: 90% !important;
+  }
+
+  /* Ensure child div inside top-section is full width and text centered */
+  .top-section > div {
+    max-width: 100% !important;
+    text-align: center !important;
+    padding: 0 !important;
+  }
+
 }
 </style>
 
@@ -65,7 +132,7 @@ permalink: /about/
 
 </div>
 
-<div class="lower-section" style="padding: 2rem; width: 140%; margin: auto;">
+<div class="lower-section" >
 
 
 
