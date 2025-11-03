@@ -32,7 +32,7 @@ layout: home
 
   /* Center the new wrapper and restrict width */
   .lower-wrapper {
-    max-width: 90% !important;
+    width: 100% !important;
     margin: 0 auto !important;
     padding: 0 1rem;
   }
