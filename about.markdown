@@ -23,6 +23,13 @@ permalink: /about/
   margin: auto;
 }
 
+.top-section {
+  padding: 2rem;
+  width: 140%;
+  margin: auto;
+  max-width: 900px;
+}
+
 @media screen and (max-width: 700px) {
   #sidebar {
     display: none;
@@ -118,7 +125,7 @@ permalink: /about/
   <div class="wrapper" style="max-width: 1600px; margin: auto;">
     <div class="home" style="border-left: none; padding-left: 1rem;">
 
-<div class="top-section" style="padding: 2rem; max-width: 900px; margin: 0 auto; width: 140%;">
+<div class="top-section" >
   <p style="font-family: 'Open Sans', sans-serif; font-size: 1.7rem; margin: 0; line-height: 1.4;">
       Hello! I’m Asya, a Computer Science and Chinese double major at Pomona College, California. I am passionate about bridging technology and human experiences.
   My goal is to combine strong technical expertise with interpersonal skills to create meaningful solutions and foster genuine connections. 
