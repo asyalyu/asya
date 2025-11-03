@@ -50,13 +50,18 @@ layout: home
     padding: 0 !important;
   }
 
-  section.project {
+   section.project,
+  section.publication,
+  section.technologies,
+  section.awards, 
+  section.education {
     display: flex !important;
     flex-direction: column !important; /* stack vertically */
     align-items: center !important;    /* center horizontally */
     text-align: center !important;     /* center text inside content div */
   }
-  section.project img {
+  section.project img,
+   section.publication img {
     margin: 1rem 0 0 0 !important;     /* margin-top to separate from text */
     width: 80% !important;             /* optional: make image smaller and responsive */
     max-width: 300px !important;       /* limit max size */
