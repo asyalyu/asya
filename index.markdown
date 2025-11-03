@@ -49,6 +49,10 @@ layout: home
     text-align: center !important;
     padding: 0 !important;
   }
+  
+  section.project > div {
+  text-align: center;
+}
 
   /* Responsive image inside top-section */
   .lower-section img {
