@@ -18,6 +18,12 @@ layout: home
 
 }
 
+.lower-section {
+  padding: 2rem;
+  width: 140%;
+  margin: auto;
+}
+
 @media screen and (max-width: 700px) {
   /* Hide sidebar on phone */
   #sidebar {
@@ -153,7 +159,7 @@ layout: home
 </div>
 
  <div class="lower-wrapper">         
-<div class="lower-section" style="padding: 2rem; width: 140%; margin: auto;">
+<div class="lower-section" >
             <h2 style="font-family: 'Georgia', serif; font-size: 1.7rem; margin:  0 0 2.5rem 0;" id="projects">Recent Projects</h2>
             <section class="project" style="display: flex; align-items: center; margin-bottom: 2rem; padding-bottom: 1rem;">
   <img src="{{ '/assets/pai.png' | relative_url }}" alt="Pa-i Website" style="width: 250px; height: 150px;border-radius: 8px;object-fit: cover; margin-right: 1rem; flex-shrink: 0;" />
