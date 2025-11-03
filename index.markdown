@@ -29,6 +29,9 @@ layout: home
   #sidebar {
     display: none;
   }
+  .home {
+    padding-left: 0 !important;
+  }
   
   .lower-wrapper,
   .lower-section {
