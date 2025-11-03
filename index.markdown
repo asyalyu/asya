@@ -17,6 +17,12 @@ layout: home
   font-weight: bold;
 
 }
+
+@media screen and (max-width: 700px) {
+  #sidebar {
+    display: none;
+  }
+}
 </style>
 
 <nav id="sidebar" style="

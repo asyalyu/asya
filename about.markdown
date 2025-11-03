@@ -16,6 +16,12 @@ permalink: /about/
   font-weight: bold;
 
 }
+
+@media screen and (max-width: 700px) {
+  #sidebar {
+    display: none;
+  }
+}
 </style>
 
 
