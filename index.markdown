@@ -49,18 +49,18 @@ layout: home
     text-align: center !important;
     padding: 0 !important;
   }
-  
-  section.project > div {
-  text-align: center;
-}
 
-  /* Responsive image inside top-section */
-  .lower-section img {
-    width: 200px !important;
+  section.project {
+    display: flex !important;
+    flex-direction: column !important; /* stack vertically */
+    align-items: center !important;    /* center horizontally */
+    text-align: center !important;     /* center text inside content div */
+  }
+  section.project img {
+    margin: 1rem 0 0 0 !important;     /* margin-top to separate from text */
+    width: 80% !important;             /* optional: make image smaller and responsive */
+    max-width: 300px !important;       /* limit max size */
     height: auto !important;
-    margin: 1rem 0 0 0 !important;
-    border-radius: 8px !important;
-    margin-right: 0 !important; /* Remove negative/right margin that breaks centering */
   }
 
   /* Center headings */
