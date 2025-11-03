@@ -52,6 +52,7 @@ layout: home
     flex-direction: column !important;
     align-items: center !important;
     text-align: center !important;
+    max-width: 90% !important;
   }
 
   /* Responsive images */
@@ -60,6 +61,7 @@ layout: home
     max-width: 90%;
     height: auto !important;
     margin-bottom: 1rem !important;
+    max-width: 90% !important;
   }
 
   /* Text container full width */
