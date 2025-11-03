@@ -32,14 +32,14 @@ layout: home
 
   /* Center the new wrapper and restrict width */
   .lower-wrapper {
-    max-width: 100% !important;
+    max-width: 90% !important;
     margin: 0 auto !important;
     padding: 0 1rem;
   }
 
   /* Override large width on lower-section */
   .lower-section {
-    width: 90% !important;
+    width: 100% !important;
     padding: 1rem !important;
   }
 
@@ -52,16 +52,15 @@ layout: home
     flex-direction: column !important;
     align-items: center !important;
     text-align: center !important;
-    max-width: 90% !important;
+    max-width: 100% !important;
   }
 
   /* Responsive images */
   section.project img,
   section.publication img {
-    max-width: 90%;
     height: auto !important;
     margin-bottom: 1rem !important;
-    max-width: 90% !important;
+    max-width: 100% !important;
   }
 
   /* Text container full width */
@@ -160,10 +159,13 @@ layout: home
 
 </div>
 
- <div class="lower-wrapper">         
+ <div class="lower-wrapper">  
+
 <div class="lower-section" >
-            <h2 style="font-family: 'Georgia', serif; font-size: 1.7rem; margin:  0 0 2.5rem 0;" id="projects">Recent Projects</h2>
-            <section class="project" style="display: flex; align-items: center; margin-bottom: 2rem; padding-bottom: 1rem;">
+
+
+<h2 style="font-family: 'Georgia', serif; font-size: 1.7rem; margin:  0 0 2.5rem 0;" id="projects">Recent Projects</h2>
+<section class="project" style="display: flex; align-items: center; margin-bottom: 2rem; padding-bottom: 1rem;">
   <img src="{{ '/assets/pai.png' | relative_url }}" alt="Pa-i Website" style="width: 250px; height: 150px;border-radius: 8px;object-fit: cover; margin-right: 1rem; flex-shrink: 0;" />
   <div>
     <h3 style="font-family: 'Open Sans', sans-serif; font-size: 1.3rem; margin:  0 0 0.5rem 0; font-weight: bold;color: rgb(16, 10, 212)" >Pa-i Website</h3>
