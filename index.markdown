@@ -66,6 +66,32 @@ layout: home
   h2, h3 {
     text-align: center !important;
   }
+
+  .top-section {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 1rem !important;
+    margin: 0 auto !important;
+    max-width: 90% !important;
+  }
+
+  /* Ensure child div inside top-section is full width and text centered */
+  .top-section > div {
+    max-width: 100% !important;
+    text-align: center !important;
+    padding: 0 !important;
+  }
+
+  /* Responsive image inside top-section */
+  .top-section img {
+    width: 200px !important;
+    height: auto !important;
+    margin: 1rem 0 0 0 !important;
+    border-radius: 8px !important;
+    margin-right: 0 !important; /* Remove negative/right margin that breaks centering */
+  }
 }
 
 
@@ -105,7 +131,7 @@ layout: home
 ">
   <img src="/assets/3.png" alt="Moving Graphic" id="moving-graphic" style="width: 100%; height: 100%;" />
 </div> -->
- <div class="lower-wrapper"> 
+
 <main class="page-content" aria-label="Content">
   <div class="wrapper" style="max-width: 1600px; margin: auto;">
     <div class="home" style="border-left: none; padding-left: 1rem;">
@@ -126,7 +152,7 @@ layout: home
 
 </div>
 
-        
+ <div class="lower-wrapper">         
 <div class="lower-section" style="padding: 2rem; width: 140%; margin: auto;">
             <h2 style="font-family: 'Georgia', serif; font-size: 1.7rem; margin:  0 0 2.5rem 0;" id="projects">Recent Projects</h2>
             <section class="project" style="display: flex; align-items: center; margin-bottom: 2rem; padding-bottom: 1rem;">
